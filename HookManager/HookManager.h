@@ -10,9 +10,7 @@
 #else
 #pragma comment(lib, "[x86]detours.lib")
 #endif
-
-
-
+//HookManager
 class HookManager {
    public:
 	   template<typename Fn,typename Handler>
