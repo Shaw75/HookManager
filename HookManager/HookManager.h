@@ -11,6 +11,8 @@
 #pragma comment(lib, "[x86]detours.lib")
 #endif
 
+
+
 class HookManager {
    public:
 	   template<typename Fn,typename Handler>
